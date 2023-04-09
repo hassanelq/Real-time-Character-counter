@@ -39,4 +39,14 @@ body .container .chars div .text {
   font-weight: 900;
   font-size: 18px;
   color: #f9d342;
+}
+
+@media only screen and (max-width: 600px) {
+  .chars {
+    display: flex;
+    flex-direction: column;
+  }
+  .chars #totalChars {
+    margin-bottom: 5px;
+  }
 }/*# sourceMappingURL=style.css.map */
